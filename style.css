@@ -1,11 +1,32 @@
 header {
     background-color: #7096D1;
     margin:-8px;
+    height: 100px;
     overflow: hidden;
+    font-family: "Italiana", serif;
 }
 
 header a {
-    color: black;
+    color: white;
+    font-family: "Italiana", serif;
     position: relative;
+    top: -50px;
     right: -1000px;
 } 
+
+header h1 {
+    color: white;
+    font-family: "Italiana", serif;
+    position: relative;
+    right: -50px;
+    top: 6px;
+    font-size: xx-large;
+}
+
+u1 {
+    font-family: "Italiana", serif;
+}
+
+li {
+    font-family: "Italiana", serif;
+}

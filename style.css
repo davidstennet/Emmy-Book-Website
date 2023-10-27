@@ -26,6 +26,7 @@ header a {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
+    font-weight: bold;
 } 
 
 header a1 {
@@ -34,20 +35,55 @@ header a1 {
     position: relative;
     top: -40px;
     right: -1000px;
-    left: 1050px;
+    left: 950px;
     background-color: #BBCF9B;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
+    font-weight: bold;
 } 
 
+header a2 {
+    color: black;
+    font-family: "Italiana", serif;
+    position: relative;
+    top: -40px;
+    right: -1000px;
+    left: 1000px;
+    text-decoration: none;
+    display: inline;
+    background-color: #BBCF9B;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+header a3 {
+    color: black;
+    font-family: "Italiana", serif;
+    position: relative;
+    top: -40px;
+    right: -1000px;
+    left: 1050px;
+    text-decoration: none;
+    display: inline;
+    background-color: #BBCF9B;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 header h1 {
-    color: white;
+    color: black;
     font-family: "Italiana", serif;
     position: relative;
     right: -20px;
-    top: 6px;
+    top: 7px;
     font-size: xx-large;
     text-decoration: none;
 }
@@ -68,7 +104,7 @@ li {
 li a:hover {
     background-color: #BBCF9B;
     color: black;
-    padding: 11px;
+    padding: 13px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -76,7 +112,35 @@ li a:hover {
 li a1:hover {
     background-color: #BBCF9B;
     color: black;
-    padding: 11px;
+    padding: 13px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+li a2:hover {
+    background-color: #BBCF9B;
+    color: black;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li a3:hover {
+    background-color: #BBCF9B;
+    color: black;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#welcome {
+    background-color: #33576E;
+    font-family: "Italiana", serif;
+    color: white;
+    padding: 100px;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 20px;
+    text-align: center;
 }

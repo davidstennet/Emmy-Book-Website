@@ -1,37 +1,52 @@
 header {
-    background-color: #7096D1;
+    background-color: #A0A64A;
     margin:-8px;
     height: 100px;
     overflow: hidden;
     font-family: "Italiana", serif;
 }
 
+#logo{
+    background-color: #A0A64A;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
 header a {
-    color: white;
+    color: black;
     font-family: "Italiana", serif;
     position: relative;
     top: -40px;
     right: -1000px;
+    left: 900px;
     text-decoration: none;
     display: inline;
+    background-color: #BBCF9B;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
 } 
 
 header a1 {
-    color: white;
+    color: black;
     font-family: "Italiana", serif;
     position: relative;
     top: -40px;
     right: -1000px;
-    text-decoration: none;
-    display: inline;
     left: 1050px;
+    background-color: #BBCF9B;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
 } 
 
 header h1 {
     color: white;
     font-family: "Italiana", serif;
     position: relative;
-    right: -50px;
+    right: -20px;
     top: 6px;
     font-size: xx-large;
     text-decoration: none;
@@ -40,6 +55,7 @@ header h1 {
 u1 {
     font-family: "Italiana", serif;
     text-decoration: none;
+    
 }
 
 li {
@@ -47,4 +63,20 @@ li {
     text-decoration: none;
     display: inline;
     right: 40px;
+}
+
+li a:hover {
+    background-color: #BBCF9B;
+    color: black;
+    padding: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+li a1:hover {
+    background-color: #BBCF9B;
+    color: black;
+    padding: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
 }

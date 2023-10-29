@@ -8,15 +8,16 @@ header {
 
 #logo{
     background-color: #A0A64A;
-    margin-left: 0px;
+    margin-left: 150px;
     margin-right: 0px;
+    
   }
 
 header a {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
-    top: -40px;
+    top: -50px;
     right: -1000px;
     left: 900px;
     text-decoration: none;
@@ -33,7 +34,7 @@ header a1 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
-    top: -40px;
+    top: -50px;
     right: -1000px;
     left: 950px;
     background-color: #BBCF9B;
@@ -48,7 +49,7 @@ header a2 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
-    top: -40px;
+    top: -50px;
     right: -1000px;
     left: 1000px;
     text-decoration: none;
@@ -65,7 +66,7 @@ header a3 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
-    top: -40px;
+    top: -50px;
     right: -1000px;
     left: 1050px;
     text-decoration: none;
@@ -81,12 +82,11 @@ header a3 {
 header h1 {
     color: black;
     font-family: "Italiana", serif;
-    position: relative;
-    right: -20px;
-    top: 7px;
-    margin-right: 0px;
+    padding-left: 30px;
+    padding-top: 10px;
     font-size: xx-large;
     text-decoration: none;
+    width: 100%;
 }
 
 u1 {
@@ -140,8 +140,8 @@ li a3:hover {
     color: white;
     padding: 100px;
     margin-top: 60px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 270px;
+    margin-right: 270px;
     border-radius: 20px;
     text-align: left;
     text-decoration: bold;
@@ -154,18 +154,24 @@ li a3:hover {
     color: white;
     margin-top: 0px;
     margin-bottom: 50px;
-    margin-left: 250px;
+    margin-left: 400px;
     margin-right: 500px;
     border-radius: 20px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 #currentbook {
-    margin-top: -200px;
+    margin-top: -150px;
     margin-bottom: 100px;
     margin-left: 10px;
-    margin-right: -300px;
+    margin-right: -150px;
     position: relative;
     float: right;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 footer {
@@ -202,10 +208,49 @@ hr {
 
 #stack {
     background-color: #BBCF9B;
-    margin-left: 120px;
+    margin-left: 270px;
     margin-top: 30px;
     padding: 10px;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding-right: 200px;
+    padding-left: 200px;
     border-radius: 20px;  
+}
+
+#recently {
+    font-family: "Italiana", serif;
+    color: white;
+    background-color: #33576E;
+    margin-left: 900px;
+    margin-right: 400px;
+    margin-top: 150px;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+#rowone {
+    margin-bottom: -150px;
+}
+
+#bookone {
+    width: 200px;
+    margin-top: 100px;
+}
+
+#booktwo {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#booklast {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#recentbooks {
+    width: 70%;
+    align-items: center;
 }

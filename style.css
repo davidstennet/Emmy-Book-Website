@@ -24,7 +24,7 @@ header {
     width: 100%;
 }
 
-header a {
+#a0 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
@@ -41,10 +41,11 @@ header a {
     font-weight: bold;
 } 
 
-header a1 {
+#a1 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
+    text-decoration: none;
     top: -50px;
     right: -1000px;
     left: 950px;
@@ -56,10 +57,11 @@ header a1 {
     font-weight: bold;
 } 
 
-header a2 {
+#a2 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
+    text-decoration: none;
     top: -50px;
     right: -1000px;
     left: 1000px;
@@ -73,10 +75,11 @@ header a2 {
     font-weight: bold;
 }
 
-header a3 {
+#a3 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
+    text-decoration: none;
     top: -50px;
     right: -1000px;
     left: 1050px;
@@ -90,7 +93,7 @@ header a3 {
     font-weight: bold;
 }
 
-header a4 {
+#a4 {
     color: black;
     font-family: "Italiana", serif;
     position: relative;
@@ -120,7 +123,7 @@ li {
     right: 40px;
 }
 
-li a:hover {
+#a0:hover {
     background-color: #BBCF9B;
     color: black;
     padding: 13px;
@@ -128,7 +131,7 @@ li a:hover {
     padding-right: 30px;
   }
 
-li a1:hover {
+#a1:hover {
     background-color: #BBCF9B;
     color: black;
     padding: 13px;
@@ -136,7 +139,7 @@ li a1:hover {
     padding-right: 30px;
 }
 
-li a2:hover {
+#a2:hover {
     background-color: #BBCF9B;
     color: black;
     padding: 13px;
@@ -144,7 +147,7 @@ li a2:hover {
     padding-right: 30px;
 }
 
-li a3:hover {
+#a3:hover {
     background-color: #BBCF9B;
     color: black;
     padding: 13px;
@@ -152,7 +155,7 @@ li a3:hover {
     padding-right: 30px;
 }
 
-li a4:hover {
+#a4:hover {
     background-color: #BBCF9B;
     color: black;
     padding: 13px;

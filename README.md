@@ -3,6 +3,13 @@ Change Log
 (E) = Emmy
 (D) = David
 
+10/30/2023 (E)
+- Fixed header links and displays
+- Added contact to header for all pages
+- Made links to social media open in new tab
+- NEED to make contact bring user to bottom of home
+- NEED to format WSS
+
 10/29/2023 (E)
 - Added Recommended Sections 1,2
 - Added Hands Reading images

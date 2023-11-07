@@ -167,12 +167,12 @@ li {
     background-color: #33576E;
     font-family: "Italiana", serif;
     color: white;
+    margin: auto;
     padding: 100px;
     margin-top: 60px;
-    margin-left: 270px;
-    margin-right: 270px;
+    width: 70%;
     border-radius: 20px;
-    text-align: left;
+    text-align: center;
     text-decoration: bold;
 }
 
@@ -183,22 +183,18 @@ li {
     color: white;
     margin-top: 0px;
     margin-bottom: 50px;
-    margin-left: 400px;
-    margin-right: 500px;
+    margin-right: 60%;
     border-radius: 20px;
     border: solid;
     border-width: 2px;
     border-color: black;
-    font-weight: 600px;
+    font-weight: 60px;
 }
 
 #currentbook {
     margin-top: -150px;
     margin-bottom: 100px;
-    margin-left: 10px;
-    margin-right: -150px;
     position: relative;
-    float: right;
     border: solid;
     border-width: 2px;
     border-color: black;
@@ -210,6 +206,7 @@ footer {
 
 .wrapper {
     width: 70%;
+    margin: auto;
     margin-top: 0px;
 }
 
@@ -239,21 +236,21 @@ hr {
 }
 
 #bar1 {
-    height: 50px;
+    height: 2.2%;
     background-color: #C7DBE2;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 2%;
     border: groove;
     border-color: black;
 }
 
 #stack {
     background-color: #BBCF9B;
-    margin-left: 270px;
-    margin-top: 30px;
+    margin-left: 10%;
+    margin-top: 2%;
     padding: 10px;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 10%;
+    padding-left: 10%;
     border-radius: 20px;  
 }
 
@@ -261,18 +258,19 @@ hr {
     font-family: "Italiana", serif;
     color: white;
     background-color: #33576E;
-    margin-left: 800px;
-    margin-right: 350px;
-    margin-top: 150px;
-    padding-left: 300px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-left: 40%;
+    margin-right: 15%;
+    margin-top: 6%;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-radius: 20px;
-    font-weight: 600px;
 }
 
 #rowone {
-    margin-bottom: -250px;
+    margin-bottom: -13%;
+    width: 65%;
 }
 
 #bookone {
@@ -415,7 +413,7 @@ hr {
 
 #contactdesc {
     font-family: "Cormorant", sans-serif;
-    font-size: 30px;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -424,4 +422,44 @@ hr {
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+#aboutme {
+    font-family: "Italiana", serif;
+    font-size: 4em;
+    background-color: #C7DBE2;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 65%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    border-radius: 20px;
+}
+
+#myphoto {
+    border-radius: 100%;
+    margin-left: 17.5%;
+    margin-top: -7%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#abouttext {
+    font-family: "Cormorant", sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+    background-color: #BBCF9B;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-right: 17.5%;
+    margin-top: -20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
+
 }

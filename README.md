@@ -3,6 +3,15 @@ Change Log
 (E) = Emmy
 (D) = David
 
+11/6/2023 (E)
+ - Started from the top of home, started scaling things by %
+ - NEED to fix bar behind recent row
+ - Started working on About me
+    - Added Header
+    - Added PFP
+    - Added Description
+ - Fixed logo labels for all pages
+
 10/30/2023 (E)
 - Fixed header links and displays
 - Added contact to header for all pages
